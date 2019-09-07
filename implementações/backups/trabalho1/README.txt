@@ -83,3 +83,4 @@ python main.py in/baboon.png out/baboon.png     # imagem de entrada e imagem de 
 python main.py -i in -o out -m 0 -d 0           # execução padrão
 ========================================================================================================================
 
+# com estas 11 operações, de 1250 foi para 1350
