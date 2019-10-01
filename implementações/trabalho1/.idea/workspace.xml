@@ -2,18 +2,277 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c953f832-538c-45a9-a47b-3b1f5edcb88b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/baboon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho0/.idea/trabalho0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-color-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-color-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-color-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-color-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-color-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-color-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-color-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-color-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-color-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-color-5-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-color-5-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-gray-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-gray-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-gray-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-gray-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-gray-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-gray-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-gray-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-gray-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-gray-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-gray-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-gray-5-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/baboon-gray-5-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-color-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-color-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-color-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-color-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-color-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-color-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-color-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-color-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-color-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-color-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-color-5-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-color-5-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-gray-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-gray-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-gray-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-gray-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-gray-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-gray-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-gray-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-gray-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-gray-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-gray-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-gray-5-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/barcelona-gray-5-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-color-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-color-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-color-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-color-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-color-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-color-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-color-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-color-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-color-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-color-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-color-5-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-color-5-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-gray-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-gray-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-gray-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-gray-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-gray-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-gray-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-gray-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-gray-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-gray-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-gray-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-gray-5-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/monalisa-gray-5-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-color-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-color-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-color-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-color-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-color-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-color-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-color-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-color-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-color-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-color-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-color-5-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-color-5-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-gray-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-gray-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-gray-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-gray-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-gray-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-gray-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-gray-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-gray-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-gray-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-gray-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-gray-5-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/peppers-gray-5-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-color-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-color-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-color-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-color-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-color-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-color-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-color-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-color-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-color-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-color-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-color-5-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-color-5-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-gray-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-gray-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-gray-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-gray-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-gray-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-gray-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-gray-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-gray-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-gray-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-gray-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-gray-5-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/watch-gray-5-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-color-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-color-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-color-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-color-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-color-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-color-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-color-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-color-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-color-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-color-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-gray-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-gray-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-gray-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-gray-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-gray-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-gray-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-gray-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-gray-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-gray-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/baboon-gray-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-color-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-color-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-color-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-color-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-color-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-color-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-color-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-color-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-color-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-color-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-gray-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-gray-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-gray-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-gray-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-gray-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-gray-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-gray-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-gray-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-gray-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/barcelona-gray-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-color-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-color-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-color-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-color-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-color-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-color-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-color-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-color-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-color-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-color-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-gray-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-gray-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-gray-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-gray-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-gray-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-gray-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-gray-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-gray-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-gray-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/monalisa-gray-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-color-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-color-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-color-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-color-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-color-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-color-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-color-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-color-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-color-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-color-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-gray-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-gray-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-gray-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-gray-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-gray-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-gray-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-gray-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-gray-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-gray-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/peppers-gray-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-color-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-color-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-color-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-color-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-color-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-color-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-color-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-color-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-color-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-color-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-gray-0-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-gray-0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-gray-1-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-gray-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-gray-2-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-gray-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-gray-3-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-gray-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-gray-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saidas/watch-gray-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/.idea/dictionaries/kleberkruger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/.idea/trabalho2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/in/baboon.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/in/fiducial.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/in/monarch.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/in/peppers.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/in/retina.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/in/sonnet.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/in/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/in/wedge.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/out/wedge-l0.pbm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trabalho2/src/threshold.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/.idea/dictionaries/kleberkruger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/.idea/trabalho0.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/in/baboon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/in/butterfly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/in/city.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/in/example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/in/house.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/in/seagull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/src/image_processed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backups/trabalho0/src/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/baboon-color-orig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/baboon-gray-orig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/baboon-gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/baboon.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/baboon-color-0-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dithering.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dithering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../relatórios/trabalho1/trabalho1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../relatórios/trabalho1/trabalho1.tex" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="trabalho1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,7 +356,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/dithering.py" />
-      <option name="PARAMETERS" value="-i ../in/baboon.png -o ../out/baboon.png -m 0 -d 1" />
+      <option name="PARAMETERS" value="-i ../in/baboon.png -o ../out/baboon-gray-0-0.png -c 0 -m 1 -d 1" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -124,7 +383,18 @@
       <updated>1567835604498</updated>
       <workItem from="1567835618618" duration="27755000" />
       <workItem from="1568049423414" duration="12908000" />
-      <workItem from="1568178753641" duration="5415000" />
+      <workItem from="1568178753641" duration="6805000" />
+      <workItem from="1568300874626" duration="278000" />
+      <workItem from="1568301156215" duration="8463000" />
+      <workItem from="1569360878231" duration="1393000" />
+      <workItem from="1569373785983" duration="861000" />
+      <workItem from="1569699710830" duration="5000" />
+      <workItem from="1569742383418" duration="50000" />
+      <workItem from="1569743808533" duration="41000" />
+      <workItem from="1569744110807" duration="73000" />
+      <workItem from="1569910106053" duration="7000" />
+      <workItem from="1569910275328" duration="111000" />
+      <workItem from="1569915015475" duration="36000" />
     </task>
     <servers />
   </component>
@@ -148,6 +418,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/trabalho1$dithering.coverage" NAME="dithering Coverage Results" MODIFIED="1568184324456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/trabalho1$dithering.coverage" NAME="dithering Coverage Results" MODIFIED="1569381950931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

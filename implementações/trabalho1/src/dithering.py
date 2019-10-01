@@ -166,5 +166,4 @@ def main():
 
 
 if __name__ == "__main__":
-    # run_task('mirror_mask()', mirror_mask, __MASKS[1].values)
     main()
