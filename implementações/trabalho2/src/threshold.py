@@ -3,8 +3,18 @@ import os
 import glob
 import cv2
 import numpy as np
+import time
 from pathlib import Path
 from matplotlib import pyplot as plt
+
+
+def run_task(desc, func, *args):
+    print("Running:", desc)
+    start = time.time()
+    values = func(*args)
+    end = time.time()
+    print("Finishing", desc + ":", round((end - start) * 1000))
+    return values
 
 
 def parse_args():
@@ -24,7 +34,7 @@ def parse_args():
 
     parser.add_argument('-g', '--global', type=int, nargs='*', dest='glob', help='global threshold value')
     parser.add_argument('-m', '--method', type=int, nargs='*', choices=[0, 1, 2, 3, 4, 5, 6], help='threshold method')
-    parser.add_argument('-a', '--inv', '--invert', type=int, nargs='*', choices=[0, 1], dest='invert',
+    parser.add_argument('-v', '--inv', '--invert', type=int, nargs='*', choices=[0, 1], dest='invert',
                         help='invert color mode')
 
     return parser.parse_args()
@@ -50,7 +60,7 @@ def get_output_file_name(orig, out):
 
 
 def get_output_file_fullname(name, local, value):
-    return os.path.splitext(name)[0] + ('-l' if local else '-g') + str(value) + '.pbm'
+    return os.path.splitext(name)[0] + ('-l' if local else '-g') + str(value) + '.pgm'
 
 
 def get_images_in_directory(dir_path, extensions='*'):
@@ -104,48 +114,48 @@ __PX_OBJECT = (np.uint8(0), np.uint8(255))
 __PX_BACKGROUND = (np.uint8(255), np.uint8(0))
 
 
-def threshold_global(img, thresh=128):
-    return np.where(img <= thresh, __PX_OBJECT, __PX_BACKGROUND)
+def threshold_global(img, thresh=128, inv=True):
+    return np.where(img > thresh, __PX_OBJECT[inv], __PX_BACKGROUND[inv])
 
 
-def bernsen(mask, px, inv=False):
+def bernsen(mask, px, inv=True):
     z_min, z_max = np.min(mask), np.max(mask)
     t = (z_min + z_max) / 2
     return __PX_OBJECT[inv] if px > t else __PX_BACKGROUND[inv]
     # return (z_min + z_max) / 2
 
 
-def niblack(mask, px, inv=False):
+def niblack(mask, px, inv=True):
     k, mean, std = 0.2, np.mean(mask), np.std(mask)
     t = mean + k * std
     return __PX_OBJECT[inv] if px > t else __PX_BACKGROUND[inv]
 
 
-def sauvola_pietaksinen(mask, px, inv=False):
+def sauvola_pietaksinen(mask, px, inv=True):
     mean, std = np.mean(mask), np.std(mask)
     k, r = 0.5, 128
-    t = mean * (1 + k * ((std / r) - 1))
+    t = mean * (1 + k * (std / r - 1))
     return __PX_OBJECT[inv] if px > t else __PX_BACKGROUND[inv]
 
 
-def phansalskar_more_sabale(mask, px, inv=False):
+def phansalskar_more_sabale(mask, px, inv=True):
     k, r, p, q = 0.25, 0.5, 2, 10
     mean, std = np.mean(mask), np.std(mask)
     t = mean * (1 + p * np.exp(-q * mean) + k * (std / r - 1))
     return __PX_OBJECT[inv] if px > t else __PX_BACKGROUND[inv]
 
 
-def contrast(mask, px, inv=False):
+def contrast(mask, px, inv=True):
     z_min, z_max = np.min(mask), np.max(mask)
     return __PX_OBJECT[inv] if abs(px - z_min) < abs(px - z_max) else __PX_BACKGROUND[inv]
 
 
-def mean(mask, px, inv=False):
+def mean(mask, px, inv=True):
     t = np.mean(mask)
     return __PX_OBJECT[inv] if px > t else __PX_BACKGROUND[inv]
 
 
-def median(mask, px, inv=False):
+def median(mask, px, inv=True):
     t = np.median(mask)
     return __PX_OBJECT[inv] if px > t else __PX_BACKGROUND[inv]
 
@@ -168,10 +178,12 @@ def threshold_local(img, method=0):
 
 
 def __execute(output_file, func, img, arg):
-    img = func(img, arg)
+    img = run_task('threshold', func, img, arg)
+    # img = func(img, arg)
     cv2.imwrite(output_file, img)
     plt.hist(img.ravel(), 256, (0, 256))
-    plt.show()
+    # plt.show()
+    plt.savefig(output_file + '.png')
 
 
 def execute(files_map, globs, methods):
