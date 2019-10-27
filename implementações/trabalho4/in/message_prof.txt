@@ -7,7 +7,7 @@ O objetivo deste trabalho é implementar um algoritmo de esteganografia em image
 A técnica de esteganografia consiste em ocultar uma mensagem dentro de uma imagem. A mensagem pode ser um texto ou
 mesmo uma outra imagem.
 A esteganografia possui varias aplicações interessantes, tais como a divulgação de mensagens sem o conhecimento de um
-possível interceptador, a inclusao de marcas para verificação de direitos autorais, entre outras.
+possível interceptador, a inclusão de marcas para verificação de direitos autorais, entre outras.
 Uma técnica comum é a modificação de um ou mais bits que compõem cada pixel da imagem, de modo que a mensagem a ser
 oculta seja armazenada nesses bits modificados. O bit menos significativo de cada pixel, ou seja, aquele se encontra
 mais a direita da palavra binária, é conveniente para ser modificado, pois produz alterações na imagem que não são
@@ -19,5 +19,3 @@ imagem pode comportar três vezes o numero de pixels que ela possui.
 O diagrama ilustrado na Figura 1 apresenta as principais etapas da esteganografia, em que a mensagem "MC" é oculta em
 uma imagem colorida por meio da alteração dos bits menos significativos dos pixels da imagem pertencentes a cada canal
 de cor.
-
-Professor: Hélio Pedrini.

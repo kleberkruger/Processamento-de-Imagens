@@ -1,6 +1,5 @@
 import argparse
 import cv2
-import numpy as np
 
 
 def parse_args():
@@ -24,16 +23,17 @@ def extract_bin_msg(img, bit_plain):
     start = 7 - bit_plain + 2
     for y in range(img.shape[0]):
         for x in range(img.shape[1]):
-            msg += format(img[y][x][0], '#010b')[start:]
-            msg += format(img[y][x][1], '#010b')[start:]
-            msg += format(img[y][x][2], '#010b')[start:]
+            msg += format(img[y][x][0], '#010b')[start:][::-1]
+            msg += format(img[y][x][1], '#010b')[start:][::-1]
+            msg += format(img[y][x][2], '#010b')[start:][::-1]
 
-            # if len(msg) >= 8 and len(msg) / 8:
+            # TODO: Esta parte pode ser melhorada.
             tokens = [(msg[i:i + 8]) for i in range(0, len(msg), 8)]
             if tokens.count('00000000') > 0:
                 stop = tokens.index('00000000')
                 msg = msg[0:stop * 8]
                 return msg
+    return None
 
 
 def decode(img, bit_plain=0):

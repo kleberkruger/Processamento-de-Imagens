@@ -22,6 +22,7 @@ def encode_msg(msg):
 
 
 def set_bit(src, y, x, band, pos, value):
+    # print(value, end="")
     # print("({}, {}, {}:{}) = {}".format(y, x, band, pos, value))
     # old_value = format(src[y][x][band], '#010b')[2:]
     if value == '1':
@@ -33,12 +34,10 @@ def set_bit(src, y, x, band, pos, value):
 
 def encode(src, msg, bit_plain=1):
     encoded = encode_msg(msg)
-    print('Encriptando mensagem: {}'.format(encoded))
     word_sz = bit_plain + 1
     block_sz = (3 * word_sz)
     for i, b in enumerate(encoded):
-        pos = int(i / block_sz)
-        offset = int(i % block_sz)
+        pos, offset = int(i / block_sz), i % block_sz
         y, x = int(pos / src.shape[1]), pos % src.shape[1]
         band, bit = int(offset / word_sz), offset % word_sz
         set_bit(src, y, x, band, bit, b)
@@ -55,5 +54,4 @@ def main():
 
 
 if __name__ == '__main__':
-    # print(encode_msg('MC'))
     main()
