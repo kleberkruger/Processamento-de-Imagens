@@ -1,29 +1,37 @@
 from imapp import ImageApp
-import cv2
 import numpy as np
-from scipy.linalg import svd
+import cv2
+import os
 
 
-def _pca(img, k):
-    Uf = [None] * img.shape[2]
-    Sf = [None] * img.shape[2]
-    Vf = [None] * img.shape[2]
-
+def pca(img, k=64):
+    g = np.zeros(img.shape)
     for i in range(img.shape[2]):
-        Uf[i], Sf[i], Vf[i] = svd(img[:, :, i])
-
-    g = np.zeros((img.shape[0], img.shape[1], img.shape[2]))
-    Ug = Uf.copy()
-    Sg = Sf.copy()
-    Vg = Vf.copy()
-
-    for i in range(img.shape[2]):
-        Ug[i][:, 1: k] = Uf[i][:, 1:k]
-        Sg[i][1:k, :] = Sf[i][1:k, 1:k]
-        Vg[i][1:k, :] = np.transpose(Vf[1:k:i])
-        g[:, :, i] = Ug[i][:, :] * Sg[:, :] * Vg[i][:, :]
+        u, s, v = np.linalg.svd(img[:, :, i], full_matrices=False)
+        g[:, :, i] = np.dot(np.dot(u[:, :k], np.diag(s)[:k, :k]), v[:k, :])
 
     return g
+
+
+def get_compression_rate(input_path, output_path):
+    return os.stat(output_path).st_size / os.stat(input_path).st_size
+
+
+def get_rmse(input_img, output_img):
+    diff = input_img - output_img
+    sqrt_error = (diff ** 2).sum()
+    h, w, _ = input_img.shape
+    return (sqrt_error / (h * w)) ** (1 / 5)
+
+
+def _get_report_path(path):
+    return 'report.txt' if path is None else path
+
+
+def _write_in_report(report_path, msg):
+    f = open(report_path, 'a')
+    f.write(msg)
+    f.close()
 
 
 class PCAApp(ImageApp):
@@ -32,12 +40,20 @@ class PCAApp(ImageApp):
         super().__init__()
 
     def _add_arguments(self, parser):
-        parser.add_argument('-k', '--component', type=int, nargs='*', help='number of components')
+        parser.add_argument('-k', '--component', type=int, help='number of components')
+        parser.add_argument('-r', '--report', type=str, help='report path')
 
     def _execute(self, paths, args):
-        print(paths, args)
         img = cv2.imread(paths.in_path)
-        _pca(img, args.component)
+        res = pca(img, args.component)
+        cv2.imwrite(paths.out_path, res)
+        cr = get_compression_rate(paths.in_path, paths.out_path)
+        rmse = get_rmse(img, res)
+        msg = 'input file: {}\toutput file:{}\ncompression_rate: {}\tRMSE: {}\n'.format(
+            paths.in_path, paths.out_path, round(cr, 2), round(rmse, 2))
+
+        _write_in_report(_get_report_path(args.report), msg)
+        print(msg)
 
 
 if __name__ == '__main__':

@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5ab4355-cf5c-49f5-8797-a556aa724dcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/Relatório 4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/in/baboon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/in/message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/in/message_prof.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/in/monalisa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/in/peppers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/in/watch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/baboon_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/baboon_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/baboon_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/messagem_baboon_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/messagem_baboon_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/messagem_baboon_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/messagem_monalisa_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/messagem_monalisa_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/messagem_monalisa_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/messagem_peppers_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/messagem_peppers_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/messagem_peppers_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/messagem_watch_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/messagem_watch_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/messagem_watch_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/monalisa_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/monalisa_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/monalisa_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/peppers_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/peppers_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/peppers_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/watch_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/watch_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/out/watch_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/src/decoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/src/encoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trabalho4/KleberKruger-Trabalho4/src/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/trabalho5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in/baboon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in/barcelona.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in/monalisa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in/peppers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in/watch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imapp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pcaapp.py" afterDir="false" />
-    </list>
+    <list default="true" id="d66d51a3-9e25-4776-9766-78e6292318ae" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,27 +18,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1TOuM07kk6Ji0dRXYMoR3pVzS3K" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1TzYBdpVC0nzD50cfkoqcPLONft" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/in" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/in" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -103,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.pcaapp">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="trabalho5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,6 +72,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="leo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="trabalho5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leo.py" />
+      <option name="PARAMETERS" value="-i ../in/baboon.png -o ../out/leo-baboon.png -k 5" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pcaapp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="trabalho5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +108,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pcaapp.py" />
-      <option name="PARAMETERS" value="-i ../in -o ../out -k 3" />
+      <option name="PARAMETERS" value="-i ../in -o ../out -k 5" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -148,9 +116,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.pcaapp" />
+      <item itemvalue="Python.leo" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.pcaapp" />
+        <item itemvalue="Python.leo" />
       </list>
     </recent_temporary>
   </component>
@@ -159,13 +132,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e5ab4355-cf5c-49f5-8797-a556aa724dcb" name="Default Changelist" comment="" />
-      <created>1573343410240</created>
+      <changelist id="d66d51a3-9e25-4776-9766-78e6292318ae" name="Default Changelist" comment="" />
+      <created>1574464256264</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573343410240</updated>
-      <workItem from="1573343419518" duration="3272000" />
-      <workItem from="1574341695643" duration="11528000" />
+      <updated>1574464256264</updated>
+      <workItem from="1574464263769" duration="4237000" />
+      <workItem from="1574468735339" duration="194000" />
+      <workItem from="1574468956724" duration="624000" />
     </task>
     <servers />
   </component>
@@ -186,6 +160,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/trabalho5$pcaapp.coverage" NAME="pcaapp Coverage Results" MODIFIED="1574364018006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/trabalho5$leo.coverage" NAME="leo Coverage Results" MODIFIED="1574465435509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/trabalho5$pcaapp.coverage" NAME="pcaapp Coverage Results" MODIFIED="1574468564775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

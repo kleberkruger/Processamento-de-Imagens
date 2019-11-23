@@ -1,0 +1,12 @@
+input file: ../in/watch.png	output file:../out/watch.png
+compression_rate: 1.49	RMSE: 3.58
+input file: ../in/lena.png	output file:../out/lena.png
+compression_rate: 0.95	RMSE: 3.21
+input file: ../in/monalisa.png	output file:../out/monalisa.png
+compression_rate: 1.05	RMSE: 2.54
+input file: ../in/barcelona.png	output file:../out/barcelona.png
+compression_rate: 1.85	RMSE: 2.62
+input file: ../in/peppers.png	output file:../out/peppers.png
+compression_rate: 0.82	RMSE: 3.24
+input file: ../in/baboon.png	output file:../out/baboon.png
+compression_rate: 0.82	RMSE: 4.32
